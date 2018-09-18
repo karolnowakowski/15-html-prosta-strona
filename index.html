@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
      <nav>
-  <a href="#o_nas" style="text-decoration: none; color:red">About us</a>
-  <a href="#umiejetnosci" style="text-decoration: none; color:blue">Skills</a>
-  <a href="#Portfolio" style="text-decoration: none; color:green">Portfolio</a>
-  <a href="#kontakt" style="text-decoration: none; color:brown">Contact</a>
+  <a href="#o_nas" id="info">About us</a>
+  <a href="#umiejetnosci" id="skile">Skills</a>
+  <a href="#Portfolio" id="praca">Portfolio</a>
+  <a href="#kontakt" id="mailowanie">Contact</a>
 </nav> 
-<section id="o_nas" style="background-color: gainsboro">
+<section id="o_nas">
     <h2>About us</h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit deleniti quis reprehenderit facere in labore suscipit placeat, voluptatibus praesentium, sint dolores, sapiente porro nisi. Ipsa aperiam quos dolorum quia dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nemo corporis eos earum illum velit aut at sapiente molestiae in nisi, ut, voluptatem? Beatae voluptatibus, autem corporis omnis laudantium quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla omnis officiis, voluptates adipisci dolorem dicta ea amet in commodi aliquam vel odit ducimus reprehenderit. Ea magnam culpa velit eius est! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolorum, minima, praesentium officiis optio sed! Nisi laboriosam minus laborum adipisci ipsa explicabo repellat fuga libero accusantium. In omnis, natus excepturi.</p>
 </section>
 <section id="umiejetnosci">
     <h2>Skills</h2>
-    <div style="width:200px; height: 200px; background-color: red; display: inline-block"></div>
-    <div style="width:200px; height: 200px; background-color: green; display: inline-block"></div>
-    <div style="width:200px; height: 200px; background-color: blue; display: inline-block"></div>
-    <div style="width:200px; height: 200px; background-color: brown; display: inline-block"></div>
+    <div id="czerwony"></div>
+    <div id="zielony"></div>
+    <div id="niebieski"></div>
+    <div id="brazowy"></div>
 </section>
 <section id="Portfolio">
     <h2>Portfolio</h2>
-    <div style="width:200px; height: 200px; border-style: solid; border-color: red; display: block"></div>
-    <div style="width:200px; height: 200px; border-style: solid; border-color: green; display: block"></div>
-    <div style="width:200px; height: 200px; border-style: solid; border-color: blue; display: block"></div>
+    <div id="rama_czerwona"></div>
+    <div id="rama_zielona"></div>
+    <div id="rama_niebieska"></div>
 </section>
 <section id="kontakt">
     <h2>Karol Nowakowski</h2>
@@ -43,7 +44,7 @@
   Wiadomość:<br>
   <textarea name="Wiadomosc" cols="40" rows="5" required></textarea>
   <br>
-  <input style="width: 100px; height:25px; background-color: gray; color: black" type="submit" value="Wyślij">
+  <input id="wyslij" type="submit" value="Wyślij">
   </form>
 </section>
 </body>

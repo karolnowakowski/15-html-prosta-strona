@@ -1,0 +1,70 @@
+#info {
+   text-decoration: none; 
+    color:red; 
+}
+#skile {
+    text-decoration: none; 
+    color:blue;
+}
+#praca {
+     text-decoration: none; 
+    color:brown;
+}
+#mailowanie {
+     text-decoration: none; 
+    color:green;
+}
+#o_nas {
+  background-color: gainsboro;  
+}
+#czerwony {
+    width:200px; 
+    height: 200px; 
+    background-color: red; 
+    display: inline-block;
+}
+#zielony {
+    width:200px; 
+    height: 200px; 
+    background-color: green; 
+    display: inline-block;
+}
+#niebieski {
+    width:200px; 
+    height: 200px; 
+    background-color: blue; 
+    display: inline-block;
+}
+#brazowy {
+    width:200px; 
+    height: 200px; 
+    background-color: brown; 
+    display: inline-block;
+}
+#rama_czerwona {
+   width:200px;
+    height: 200px; 
+    border-style: solid; 
+    border-color: red; 
+    display: block;
+}
+#rama_zielona {
+   width:200px;
+    height: 200px; 
+    border-style: solid; 
+    border-color: green;
+    display: block;
+}
+#rama_niebieska {
+   width:200px;
+    height: 200px; 
+    border-style: solid; 
+    border-color: blue; 
+    display: block;
+}
+#wyslij {
+   width: 100px; 
+    height:25px; 
+    background-color: gray; 
+    color: black;
+}
